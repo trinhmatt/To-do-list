@@ -1,0 +1,14 @@
+.taskList {
+  width: 300px;
+  margin: auto
+}
+
+.tasks {
+  width: 250px;
+  float: left;
+}
+
+.checklist {
+  width:50px;
+  float: left;
+}

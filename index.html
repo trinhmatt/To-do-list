@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' type='text/css' href='style.css'
+</head>
+<h1 class='Title'>To do list</h1>
+<body>
+  <div class='To_do'>
+    <p>
+      <label>Add task</label>
+      <input  type = 'text'
+              id = 'task' />
+      <button type="button" onclick="add_task();">Add</button>
+    </p>
+    <p>
+      <button type="button" onclick="clear_tasks();">Clear</button>
+  </div>
+  <div class='TaskList'>
+    <div class='tasks'>
+      <label>Task list</label>
+      <ul id = 'tasklist'>
+      </ul>
+    </div>
+    <div class=checklist>
+      <label>Completed</label>
+      <ul id='checkbox'>
+      </ul>
+    </div>
+  <script src="main.js"></script>
+</body>
+<style> .checklist{ list-style-type: none;} </style>
+</html>
