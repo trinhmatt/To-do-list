@@ -8,7 +8,6 @@
   float: left;
 }
 
-.checklist {
-  width:50px;
-  float: left;
+input:checked + span {
+  text-decoration: line-through;
 }
